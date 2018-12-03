@@ -1,0 +1,165 @@
+{
+  "id": "857c6c29-3b7b-4473-b069-a42461ab1f94",
+  "name": "QUORUM_BLOCKCHAIN_ENV",
+  "values": [
+    {
+      "key": "URL",
+      "value": "http://localhost:3010/api/v1",
+      "enabled": true
+    },
+    {
+      "key": "PROJECT_ID",
+      "value": "fbf535c3-8550-49c9-b861-ddd2ee66fc79",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "enabled": true
+    },
+    {
+      "key": "OPERATOR_USER_EMAIL",
+      "value": "tcdeveloper-747@126.com",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "enabled": true
+    },
+    {
+      "key": "CHANLLEGE_ID",
+      "value": "48c1b4f3-1c81-4e0f-b6b0-722e37a6f06b",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "enabled": true
+    },
+    {
+      "key": "OPERATOR_USER_ID",
+      "value": "9dba5b0d-7b21-4c2f-9d0d-5ce59c4c61d2",
+      "enabled": true
+    },
+    {
+      "key": "MEMBER_USER_EMAIL",
+      "value": "tcdeveloper-550@126.com",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "enabled": true
+    },
+    {
+      "key": "MEMBER_USER_ID",
+      "value": "311cffc5-7f47-4ed3-98cd-8569bf37c7e8",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "enabled": true
+    },
+    {
+      "key": "SUBMISSION_ID",
+      "value": "f8c69e12-8c9f-4d1d-b855-0e2aeefdd545",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "enabled": true
+    },
+    {
+      "key": "COPILOT_USER_ID",
+      "value": "0b4e849a-468c-42f0-aaf0-b80f08d2012c",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "enabled": true
+    },
+    {
+      "key": "MANAGER_USER_ID",
+      "value": "1098117f-a13a-474f-b41d-54af80f2b058",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "enabled": true
+    },
+    {
+      "key": "MANAGER_USER_EMAIL",
+      "value": "tcdeveloper-747@126.com",
+      "enabled": true
+    },
+    {
+      "key": "MEMBER_USER_ID2",
+      "value": "74648bc2-507c-454e-9fa2-bb71c9732d47",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "enabled": true
+    },
+    {
+      "key": "COPILOT_USER_ID2",
+      "value": "c6a1902e-9d90-4547-b056-dc34f773ffa5",
+      "enabled": true
+    },
+    {
+      "key": "TOKEN",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGNkZXZlbG9wZXItNzQ3QDEyNi5jb20iLCJpZCI6ImUyNjI1ZTg4LWQ2ZWMtNGRlNy05YzQzLTlhNzI2OTAxMjY3YiJ9LCJpYXQiOjE1MzU1NzIzNTZ9.a5pWkHsnjsj6TyAXWgYrqSwQtBDQxYgZf0XPEu5-CQw",
+      "enabled": true
+    },
+    {
+      "key": "MANAGER_TOKEN",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmZWE4NDlhZi04Mzg5LTQ2N2MtOTdjMC0xNjQ3N2JmOGFiNjgiLCJ1c2VyIjp7ImVtYWlsIjoidGNkZXZlbG9wZXItNzk0QDEyNi5jb20iLCJpZCI6IjEwOTgxMTdmLWExM2EtNDc0Zi1iNDFkLTU0YWY4MGYyYjA1OCJ9LCJleHAiOjE1Njg1OTQ1MjgsImlhdCI6MTUzNzA1ODUyOH0.ftElu5oHoFdfGdhylPJCjglJONWbZkq4My2vjwU5W_A",
+      "enabled": true
+    },
+    {
+      "key": "CLIENT_USER_ID",
+      "value": "98f6b77b-7cb9-476d-adc4-df2d42f83794",
+      "enabled": true
+    },
+    {
+      "key": "REVIEWER_USER_ID",
+      "value": "1dce888f-9f21-45a6-a63f-806e1cf5ddf3",
+      "enabled": true
+    },
+    {
+      "key": "COPILOT_TOKEN",
+      "value": null,
+      "enabled": true
+    },
+    {
+      "key": "MEMBER_TOKEN",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlMTU2MjRjOS1hYWJmLTRmN2UtODhkZS04MmExNmEzMGNiZDMiLCJ1c2VyIjp7ImVtYWlsIjoidGNkZXZlbG9wZXItOTE0QDEyNi5jb20iLCJpZCI6IjMxMWNmZmM1LTdmNDctNGVkMy05OGNkLTg1NjliZjM3YzdlOCJ9LCJleHAiOjE1NjgzMjc2MTYsImlhdCI6MTUzNjc5MTYxNn0.9esR4tIyU2WRjZSV9DTd0iAV3Bk7U4BNMh30emaG1uY",
+      "enabled": true
+    },
+    {
+      "key": "REVIEWER_TOKEN",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5YjM3MzJmNy0xYjg3LTQ2YmQtYWViNy00NjAzMTdhNTNkNGIiLCJ1c2VyIjp7ImVtYWlsIjoidGNkZXZlbG9wZXItNzAzQDEyNi5jb20iLCJpZCI6IjFkY2U4ODhmLTlmMjEtNDVhNi1hNjNmLTgwNmUxY2Y1ZGRmMyJ9LCJleHAiOjE1NjgzMjc4MjgsImlhdCI6MTUzNjc5MTgyOH0.dG7LT-TNXFOlYr0Knmniqd80GJVHuMRiq8HLv-igXk4",
+      "enabled": true
+    },
+    {
+      "key": "CLIENT_TOKEN",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0ZDVjNGJjNS02ZGQzLTQ0ZmUtOThkNy0wNzEwOGJmMTllYmYiLCJ1c2VyIjp7ImVtYWlsIjoidGNkZXZlbG9wZXItNTQ2QDEyNi5jb20iLCJpZCI6Ijk4ZjZiNzdiLTdjYjktNDc2ZC1hZGM0LWRmMmQ0MmY4Mzc5NCJ9LCJleHAiOjE1Njg1OTQ1MzcsImlhdCI6MTUzNzA1ODUzN30.fSRkXV9vlFEjtEOs_gr6QkRXkL0XoKu6CrBWj3VdM3U",
+      "enabled": true
+    },
+    {
+      "key": "MEMBER_TOKEN2",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4OWZhNTQ1OS01ZWUwLTQzNWItODk2Yy1jNjU1ZWMzNDBmYTYiLCJ1c2VyIjp7ImVtYWlsIjoidGNkZXZlbG9wZXItODUxQDEyNi5jb20iLCJpZCI6Ijc0NjQ4YmMyLTUwN2MtNDU0ZS05ZmEyLWJiNzFjOTczMmQ0NyJ9LCJleHAiOjE1Njc0ODI5NDMsImlhdCI6MTUzNTk0Njk0M30.Hss3rF8mKB40iLjZOZZlAvWMP9UfutO-Ewvx7WBFmpo",
+      "enabled": true
+    },
+    {
+      "key": "COPILOT_TOKEN2",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhNDNhZmExYi03YjYyLTQ1NDQtODBiYi1mYTdjOWRkNDQ4ZGEiLCJ1c2VyIjp7ImVtYWlsIjoidGNkZXZlbG9wZXItNDY1QDEyNi5jb20iLCJpZCI6ImM2YTE5MDJlLTlkOTAtNDU0Ny1iMDU2LWRjMzRmNzczZmZhNSJ9LCJleHAiOjE1Njc0ODI5MzUsImlhdCI6MTUzNTk0NjkzNX0.pb1O8a2eheW2X_jvkJom2cTBlc1CMp8Ywnl31X1CXXE",
+      "enabled": true
+    },
+    {
+      "key": "PHASES",
+      "value": "[{\"name\":\"Register\",\"startDate\":\"2018-09-12T22:53:25.472Z\",\"endDate\":\"2018-09-14T22:53:25.472Z\"},{\"name\":\"Submission\",\"startDate\":\"2018-09-14T22:53:25.472Z\",\"endDate\":\"2018-09-17T22:53:25.472Z\"},{\"name\":\"Review\",\"startDate\":\"2018-09-17T22:53:25.472Z\",\"endDate\":\"2018-09-19T22:53:25.472Z\"},{\"name\":\"Appeal\",\"startDate\":\"2018-09-19T22:53:25.472Z\",\"endDate\":\"2018-09-20T22:53:25.472Z\"},{\"name\":\"AppealResponse\",\"startDate\":\"2018-09-20T22:53:25.472Z\",\"endDate\":\"2018-09-21T10:53:25.472Z\"}]",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2018-09-21T13:57:08.487Z",
+  "_postman_exported_using": "Postman/6.3.0"
+}

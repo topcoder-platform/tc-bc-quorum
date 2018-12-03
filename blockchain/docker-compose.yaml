@@ -1,0 +1,91 @@
+# Copyright (c) 2018 TopCoder, Inc. All rights reserved.
+#
+# author: TCSDEVELOPER
+# version: 1.0
+
+version: '2'
+
+services:
+  topcoder-node:
+    container_name: topcoder-node
+    extends:
+      file:  docker-base.yaml
+      service: node-base
+    environment:
+      - NODE_HOST_NAME=topcoder-node
+    volumes:
+        - ./qdata/topcoder:/etc/quorum/qdata
+    ports:
+      - 22000:8545
+    networks:
+      topcoder_quorum_net:
+        ipv4_address: '192.168.0.201'
+
+  client-node:
+    container_name: client-node
+    extends:
+      file:  docker-base.yaml
+      service: node-base
+    environment:
+      - NODE_HOST_NAME=client-node
+    volumes:
+        - ./qdata/client:/etc/quorum/qdata
+    ports:
+      - 22001:8545
+    networks:
+      topcoder_quorum_net:
+        ipv4_address: '192.168.0.202'
+
+  moderator-node:
+    container_name: moderator-node
+    extends:
+      file:  docker-base.yaml
+      service: node-base
+    environment:
+      - NODE_HOST_NAME=moderator-node
+    volumes:
+        - ./qdata/moderator:/etc/quorum/qdata
+    ports:
+      - 22002:8545
+    networks:
+      topcoder_quorum_net:
+        ipv4_address: '192.168.0.203'
+
+  member-node:
+    container_name: member-node
+    extends:
+      file:  docker-base.yaml
+      service: node-base
+    environment:
+      - NODE_HOST_NAME=member-node
+    volumes:
+        - ./qdata/member:/etc/quorum/qdata
+    ports:
+      - 22003:8545
+    networks:
+      topcoder_quorum_net:
+        ipv4_address: '192.168.0.204'
+
+  ipfs-node:
+    container_name: ipfs-node
+    image: jbenet/go-ipfs:latest
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./ipfs_data/export:/export
+      - ./ipfs_data/data:/data/ipfs
+    ports:
+      - 8080:8080
+      - 4001:4001
+      - 5001:5001
+    networks:
+      topcoder_quorum_net:
+        ipv4_address: '192.168.0.205'
+
+networks:
+  topcoder_quorum_net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet: 192.168.0.0/16

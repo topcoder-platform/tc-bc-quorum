@@ -1,0 +1,15 @@
+# Copyright (c) 2018 TopCoder, Inc. All rights reserved.
+#
+# author: TCSDEVELOPER
+# version: 1.0
+
+version: '2'
+
+services:
+  node-base:
+    image: quorum
+    working_dir: /etc/quorum
+    command: ./scripts/start-node.sh
+    volumes:
+      - ./scripts:/etc/quorum/scripts
+      - ./tests:/etc/quorum/tests
